@@ -1,0 +1,110 @@
+<html> <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css.css">
+
+
+</head>
+<body>
+<div id="all">
+
+<div id="top"><h4>Akash's Cricket Bats</h4></div<!--top--></div>
+<a name="top"></a>
+<div id="nav">
+<h5>Navigation </h5>
+<ul>
+	<a href="index.html">Home</a><br/>
+	<a href="owner.html">Owner</a><br/>
+	<a href="Staff.html">Staff</a><br/>
+	<a href="Products.html">Products</a><br/>
+	<a href="order.html">Order</a><br/>
+	<a href="javaScript.html">Java Script</a></br>
+	<a href="jquery.html">JQuery</a> <br/>
+    <a href="jqueryui_diff.html">JQuery UI</a> <br/>
+    <a href="jquerymisc.html">JQuery Misc</a>
+
+</div><!--nav-->
+</ul>
+<div id="main">
+
+<h1>JQuery</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("h2").hide();
+    });
+});
+</script>
+<script>
+$(document).ready(function(){
+    $("P").click(function(){
+        $(this).hide();
+    });
+});
+</script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+});
+</script>
+
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+
+<script> 
+$(document).ready(function(){
+    $("button").click(function(){
+        var div = $("div");  
+        div.animate({right: '300px'}, "slow");
+        div.animate({fontSize: '1.2em'}, "slow");
+    });
+});
+</script>
+
+<br>
+<h5>JQuery Misc</h5>
+<h2>Using an html element, on clicking I will hide the heading</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<button>Click me to hide paragraphs</button>
+
+<h2>Using the "this" option I will hide the p options</h2>
+<p>If you click on me, I will disappear the p</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+<div id="flip">Click to slide down panel</div>
+<div id="panel">Hello world!</div>
+
+<button>Start Animation</button>
+<p>By default, all HTML elements have a static position, and cannot be moved. To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!</p>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;">HELLO</div>
+
+
+<div id="foot">
+<font color="white"><h5><a href ="index.html" > copyright &copy; Click & go HOME.</a> </h5></font>
+</div><!--foot-->
+
+
+</div><!--all-->
+</body></html>
+
+
+

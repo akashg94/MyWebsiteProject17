@@ -1,0 +1,127 @@
+table.img{width:100%;}
+
+
+#all{	width:90%;
+		height:950px;
+		background-color:skyblue;
+		margin-left: auto;
+		margin-right: auto;}
+		
+#top{	width:100%;
+		height:100px;
+		background-color:MediumSeaGreen;}
+		
+#nav{	width:20%;
+		height:800px;
+		background-color:Violet;
+		margin-left:auto;
+		margin-right:auto;
+		float:left;}		
+
+#main{	width:80%;
+		height:800px;
+		background-color:LightBlue;
+		float:right;		
+		}
+
+		
+#foot{	width:100%;
+		height:50px;
+		clear:both;
+		background-color:LightGray;
+		}	
+		
+
+.button{
+		width: 150px;
+		text-align: center;
+		margin:0 auto;
+}
+
+.js	{	depth }
+		
+.picwidth	{width:30%}
+.Mainimage	{Width: 45%;}
+.Staffimage	{Width: 50%;}
+.photo2		{width: 52%;}
+.productimage{width: 45%}
+.stuffimg	{Width: 50%;}			
+.topimage{height:100px;
+			width:450;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}			
+
+Button{
+
+}
+
+				
+h1{		text-align:center;
+		font-size: 30px}
+
+h2{		text-align:center;
+		font-size: 30px;
+		margin-left: 30px}
+		
+h4{		font-family: 'Monoton', 'cursive';
+		font-size:40px;
+		text-align: center;}
+
+h5{		text-align: center;
+		font-size:20px;
+		margin:0px}
+		
+ul{		padding-left:10%;}
+
+img{	display: block;
+		margin-left: auto;
+		margin-right: auto;
+		Width: 27%;}
+		
+iframe{	display: block;
+		margin-left: auto;
+		margin-right: auto;
+		Width: 60%;}
+		
+table, th, td {
+    border: 1px solid black;}
+
+
+Table{	width:90%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;}
+
+fieldset{	width:95%;
+		padding:1%;
+		margin-left :auto;
+		margin-right :auto;
+}	
+
+ol{		margin-left:5px;}
+
+h5{     font:;}
+
+/*=======================================800px=========================*/
+@media only screen and (max-width: 950px){
+h4{		font-size:30px;}
+ul{font-size: 12px;}
+#nav{	
+		height:800px;}
+#main{	height:800px;}	
+table{font-size: 50%;}	
+}
+/*=======================================600px=========================*/
+@media only screen and (max-width: 400px){
+#nav{	width:100%;
+		height:200px;}
+#main{	width:100%;}
+ul{		padding-left:17px;}
+img{	Width: 50%;}
+h4{		font-size:20px;}
+Table{Font-size:30%;}
+}
